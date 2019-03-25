@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    height:30px;
+    background: #ccc;
+    text-align: center;
+    line-height: 26px;
+}
+main{
+    height: calc(100% - 30px);
+    border: 1px solid #ccc;
+}

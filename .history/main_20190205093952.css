@@ -1,0 +1,9 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    height:30px;
+    background: #ccc;
+    text-align: center;
+}

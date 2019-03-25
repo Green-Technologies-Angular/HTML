@@ -1,0 +1,22 @@
+.bg-nav{
+    background: red;
+}
+/*
+ * Footer
+ */
+ .blog-footer {
+    padding: 2.5rem 0;
+    color: #999;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: .05rem solid #e5e5e5;
+  }
+  .blog-footer p:last-child {
+    margin-bottom: 0;
+  }
+@media (min-width: 1200px) { 
+    .bg-nav{
+        background: red;
+        margin-top:100px;
+    }
+ }

@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 100%;
+}
+header{
+    height:30px;
+    background: #ccc;
+    text-align: center;
+    line-height: 26px;
+}
+main{
+    height: 600px;
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 0px;
+}
+aside{
+
+}
+footer{
+    height: 26px;
+    background: rgb(82, 78, 78);
+    text-align: center;
+    color: white;
+    line-height: 20px;
+    text-transform: capitalize;
+}

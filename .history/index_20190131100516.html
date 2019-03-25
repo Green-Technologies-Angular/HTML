@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Title of the document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/index.css">
+    <style>
+        .border {
+            border: 1px solid #ccc;
+        }
+        .bg-nav{
+            background: green;
+        }
+    </style>
+    <script>
+        localStorage.setItem("name", "tamilsdfsdfsdfsdfmani");
+        console.log(localStorage.getItem('name'));
+    </script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <ul class="nav justify-content-end bg-nav" style="background: #ccc;">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+        </ul>
+        <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 border">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book.
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 border">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book.
+            </div>
+        </div>
+    </div>
+    <script src="script/jquery.js"></script>
+    <script src="script/popper.js"></script>
+    <script src="script/bootstrap.js"></script>
+</body>
+
+</html>
